@@ -1,0 +1,128 @@
+ 
+ 
+.imageposter {
+  width: 100%;
+
+  height: 100%;
+}
+.aboutheading {
+  position: absolute;
+  letter-spacing: 1rem;
+  /* left: 22rem; */
+  font-size: 48px;
+  color: white;
+  right: 34rem;
+  font-family: "Playfair Display SC", serif;
+  top: 12rem;
+}
+.posterimg {
+  height: 313px;
+  width: 100%;
+}
+.aboutmain {
+  width: 100%;
+  height: 100vh;
+}
+.stunningcollection {
+  display: flex;
+  /* height: 100vh; */
+  flex-direction: column;
+}
+.datareview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 86%;
+  margin: auto;
+  margin-top: 5%;
+  flex-direction: row;
+}
+.image {
+  width: 103%;
+}
+.imgabout {
+  width: 91%;
+  height: 380px;
+}
+
+.datastunnig {
+  display: flex;
+  /* align-items: center; */
+  padding: 31px;
+  margin-left: 5rem;
+  /* width: 200%; */
+  justify-content: center;
+  flex-direction: column;
+}
+.datastunnig_h2 {
+  margin-bottom: 32px;
+  font-family: inherit;
+}
+.datastunnig_p {
+  /* letter-spacing: 1px; */
+  font-family: cursive;
+  font-size: 18px;
+}
+
+.stunningcollection_h1 {
+  letter-spacing: 9px;
+  display: flex;
+  margin-top: 4rem;
+  color: red;
+  font-size: 39px;
+
+  align-items: center;
+  font-family: inherit;
+  justify-content: center;
+}
+
+.background_color {
+  content: "";
+  background-color: red;
+  height: 51vh;
+  margin-left: -19px;
+  width: 22%;
+  margin-top: -12px;
+  position: absolute;
+  z-index: -1;
+}
+
+.teamimag  {
+  width: 67%;
+  height: 20%;
+  border-radius: 50%;
+  margin-bottom: 22px;
+ 
+}
+.teamingheading {
+    display: flex;
+    margin: auto;
+    width: 23%;
+    height: 70px;
+}
+ 
+.mainteam {
+   
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 76%;
+  margin: auto;
+}
+.subteam {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+  background-color: rgb(228 52 52 / 9%);
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  justify-content: center;
+  margin-left: 17px;
+  /* width: 50rem; */
+  /* border: 2px solid #0000004a; */
+  /* height: 84vh; */
+  padding: 3rem;
+  flex-direction: column;
+}

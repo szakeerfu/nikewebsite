@@ -1,0 +1,29 @@
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* padding: 12px; */
+  /* margin-right: -25rem; */
+}
+.footer {
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+  background-color: rgb(228 52 52 / 9%);
+  padding: 20px;
+  display: flex;
+  height: 29vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer-column {
+  flex-basis: 33%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.footer-column p {
+  color: #555555;
+  line-height: 1.5;
+}
